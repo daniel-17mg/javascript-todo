@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+     <link href="./src/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="flex h-[100vh] justify-center items-center"> 
+   <section class="shadow-2xl h-[24rem] w-[20rem] p-[1.5rem]">
+     <h1 class="text-[1.5rem] font-semibold">Todo App</h1>
+
+     <div>
+        <input type="text" name="" id="input" placeholder="Add your new todo" class="border outline-none w-[14rem] border-gray-200 p-[0.3rem]">
+       <button class="text-white bg-purple-700 rounded cursor-pointer" id="plus">
+         <i class="fa-solid fa-plus p-[0.7rem]"></i>
+       </button>
+     </div>
+
+     <div class="overflow-y-auto mt-[1.5rem] h-[13rem]">
+       <ul class=" space-y-[1rem]" id="task">
+
+      </ul>
+    </div>
+
+    <div class="justify-between flex mt-[0.5rem]" id="footer">
+      <span class="text-[0.8rem] pt-[0.5rem]">you have <span id="counter">0</span> pending tasks</span>
+      <button class="bg-purple-600 text-white rounded p-[0.3rem] cursor-pointer" id="btn">Clear All</button>
+    </div>
+  </section> 
+  
+  <script src="./app.js"></script>
+</body>
+</html>
