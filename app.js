@@ -28,7 +28,7 @@ plus.addEventListener("click", () => {
   span.setAttribute("class", "p-[0.5rem]");
   button.setAttribute(
     "class",
-    "transition-opacity md:opacity-0 opacity-100 group-hover:opacity-100 duration-700 bg-red-600 rounded ml-auto text-white"
+    "transition-opacity lg:opacity-0 opacity-100 group-hover:opacity-100 duration-700 bg-red-600 rounded ml-auto text-white"
   );
   iTag.setAttribute("class", "fa-solid fa-trash p-[0.8rem] cursor-pointer");
 
